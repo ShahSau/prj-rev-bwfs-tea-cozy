@@ -1,0 +1,331 @@
+body
+{
+	margin: 0px;
+	background-color: black;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+}
+a:link
+{
+	text-decoration: underline;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	
+}
+
+/*++++++++++++++++++++++++++++++++++Creating header+++++++++++++++++++++++++++++++++++++++++++++*/
+.hea
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	height: 69px;
+	width: 100%;
+	/*display: flex;
+	flex-direction: row;
+	justify-content: space-between; */
+	z-index: 100;
+	border-bottom: 1px seashell solid;
+	
+}
+.imgone
+{
+	position: fixed;
+	left: 10px;
+	top: 15px;
+}
+.navv
+{
+	position: fixed;
+	top:20px ;
+	left: 1300px ;
+}
+/*++++++++++++++++++++++++++++++++++Creating main image+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.mainbody
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	top:69px;
+	z-index: 10;
+	left: 125px;
+	position: absolute;
+	height: 700px;
+	width: 1200px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	background-repeat: no-repeat;
+	width:1200px; 
+	height:700px;
+    background-position: center;
+}
+
+.missi
+{
+	background-color: black;
+	width: 1300px;
+	height: 90px;
+	color: seashell;
+	text-align: center;
+	position: absolute;
+	top: 280px;
+	opacity: 1;
+}
+/*++++++++++++++++++++++++++++++++++Creating Tea of the month+++++++++++++++++++++++++++++++++++++++++++++*/
+.month
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	top:820px;
+	left: 15%;
+	position: absolute;
+	height: 650px;
+	width: 1000px;
+
+	
+
+}
+.monthtwo
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+	
+}
+.month h2
+{
+	position: absolute;
+	top: 5px;
+	left: 40%;
+	text-align: center;
+	font-family: Helvetica;
+	color: seashell;
+	font-size: 26px;
+}
+.month h4
+{
+	position: absolute;
+	top: 45px;
+	left: 35%;
+	text-align: center;
+	font-family: Helvetica;
+	color: seashell;
+	font-size: 22px;
+}
+
+.one
+{
+	height: 230px;
+	width: 300px;
+	margin: 15px;
+}
+.one p
+{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+.two
+{
+	height: 230px;
+	width: 300px;
+	margin: 15px;
+}
+.two p
+{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+.three
+{
+	height: 230px;
+	width: 300px;
+	margin: 15px;
+}
+.three p
+{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+.four
+{
+	height: 230px;
+	width: 300px;
+	margin: 15px;
+}
+
+.four p
+{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+.five
+{
+	height: 230px;
+	width: 300px;
+	margin: 15px;
+}
+
+.five p
+{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+
+/*++++++++++++++++++++++++++++++++++Creating location part+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.loc
+{
+	position: absolute;
+	top:1500px;
+	left: 150px;
+	height: 500px;
+	width: 1200px;
+	background-image: url("location.jpg");
+	background-repeat: no-repeat;
+	height:580px;
+
+}
+
+.loc h2
+{
+	color: seashell;
+	position: relative;
+	left: -10px;
+	top: 70px;
+	font-family: Helvetica;
+	font-size: 28px;
+}
+
+.locnd
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 15px;
+	position: relative;
+	top: 75px;
+
+}
+.downtown
+{
+	width:300px;
+	height:220px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	
+}
+
+.east
+{
+	width:300px;
+	height:220px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+
+}
+.oakdale
+{
+	width:300px;
+	height:220px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+}
+
+
+/*++++++++++++++++++++++++++++++++++last part+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.contact 
+{
+	height: 200px;
+	width: 1200px;
+	position: absolute;
+	top: 2100px;
+	left: 4%;
+}
+
+
+.contact h3
+{
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	text-align: center;
+	font-family: Helvetica;
+	color: seashell;
+	font-size: 22px;
+}
+.contact h5
+{
+	position: absolute;
+	text-align: center;
+	font-family: Helvetica;
+	color: seashell;
+	font-size: 22px;
+	top: 25px;
+	left: 45%;
+}
+
+.contact p
+{
+	position: absolute;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	top: 100px;
+	left: 50%;
+}
+
+/*++++++++++++++++++++++++++++++++++copyright section+++++++++++++++++++++++++++++++++++++++++++++*/
+.copy
+{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: left;
+	margin: 20px;
+	position: absolute;
+	top: 2250px;
+	left: 0px;
+}
